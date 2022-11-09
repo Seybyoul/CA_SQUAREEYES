@@ -1,0 +1,12 @@
+.header-logo {
+    width: 228.px;
+    height: 121.25px;
+}
+
+nav a {
+    text-decoration: none; 
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}

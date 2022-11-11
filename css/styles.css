@@ -3,12 +3,9 @@
     text-decoration: none;
     color: #000;
     font-family: 'Poppins', sans-serif, "Font Awesome 6Free";
-    .material-icons.md-18 { font-size: 18px; }
 } 
 
 /* Header */
-
-
 header { 
     text-align: center;
     height: 70px;
@@ -43,15 +40,56 @@ header .login ul li .material-icons {
     font-size: 46px;
 }
 
+/* Footer */
 footer {
     text-align: right;
     border-top: solid 1px #F2EDED;
     padding-top: 10px;
 }
 
-
-
 footer section a img {
     width: 93px;
     height: 50px;
+}
+
+/* ABOUT */
+
+.about {
+    padding-left: 90px;
+    border-bottom: solid 2px #000;
+    height: 120px;
+    width: 100%;
+}
+
+.a_item {
+    display: inline-block;
+}
+.about h1 {
+    font-size: 4.375em;
+    padding-top: 20px;
+    margin: 0;
+}
+
+.about_boxs {
+    width: 80%;
+    text-align: center;
+}
+.about_item {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.about_item.a {
+    background-color: yellow;
+    width: 402px;
+    height: 417px;
+}
+
+.about_text p strong {
+    font-size: 20px;
+}
+
+.about_item.b img {
+    width: 666px;
+    height: 417px;
 }

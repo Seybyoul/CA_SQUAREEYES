@@ -61,32 +61,48 @@ footer section a img {
     width: 100%;
 }
 
-.a_item {
-    display: inline-block;
-}
 .about h1 {
     font-size: 4.375em;
     padding-top: 20px;
     margin: 0;
 }
 
-.about_boxs {
-    width: 80%;
+    /* About_headline */
+
+.about_headline {
     text-align: center;
+    
 }
+
+.about_headline h2 {
+    font-size: 4.375px;
+    margin: 0;
+}
+
+    /* About_boxs */
+
+.aobut_boxs {
+    text-align: center;
+    padding-bottom: 120px;
+    padding-top: 20px;
+}
+
 .about_item {
     display: inline-block;
     vertical-align: top;
 }
 
 .about_item.a {
-    background-color: yellow;
+
     width: 402px;
     height: 417px;
 }
-
-.about_text p strong {
+.about_item.a p {
+    font-size: 15px;
+}
+.about_item.a p strong {
     font-size: 20px;
+
 }
 
 .about_item.b img {

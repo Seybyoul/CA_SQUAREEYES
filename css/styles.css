@@ -52,20 +52,22 @@ footer section a img {
     height: 50px;
 }
 
-/* ABOUT */
+/* Pages Title */
 
-.about {
+.page_title {
     padding-left: 90px;
     border-bottom: solid 2px #000;
     height: 120px;
     width: 100%;
 }
 
-.about h1 {
+.page_title h1 {
     font-size: 4.375em;
     padding-top: 20px;
     margin: 0;
 }
+
+/* ABOUT */
 
     /* About_headline */
 
@@ -108,4 +110,23 @@ footer section a img {
 .about_item.b img {
     width: 666px;
     height: 417px;
+}
+
+/* Blog */
+
+.cards {
+    margin: 0 auto;
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px
+}
+
+.card {
+    box-shadow: 0 0 3px #000 rgba(0, 0, 0, 0.1);
+}
+
+.card_img {
+    width: 100%;
+    display: block;
 }

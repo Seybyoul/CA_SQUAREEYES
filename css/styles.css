@@ -150,10 +150,6 @@ footer section a img {
     box-sizing: border-box;
 }
 
-.contents_wrap li {
-    justify-content: space-between;
-}
-
 .contents_wrap img {
     height: 100%;
     width: 100%;
@@ -163,10 +159,30 @@ footer section a img {
     
 }
 
-.
-
 /* MOVIE */
-/* CINEMA */
+
+.container {
+    max-width: 1200px;
+    margin: 10px 50px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.item {
+    width: 320px;
+    height: 180px;
+    background-color: #f7f7f7;
+    border: 1px solid #000;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 3em;
+}
+
+
+
 /* ABOUT */
 
     /* About_headline */

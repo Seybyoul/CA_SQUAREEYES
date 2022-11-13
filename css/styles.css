@@ -137,8 +137,36 @@ footer section a img {
 .banner [id="slide03"]:checked ~ .slidewrap .slideList > li {transform: translateX(-200%);}
 .banner [id="slide04"]:checked ~ .slidewrap .slideList > li {transform: translateX(-300%);}
 
+    /* Hoem contents */
 
+.contents {
+    max-width: 1200px;
+    margin : 0 auto;
+    overflow: hidden;
+}
 
+.contents_wrap {
+    display: inline-flex;
+    box-sizing: border-box;
+}
+
+.contents_wrap li {
+    justify-content: space-between;
+}
+
+.contents_wrap img {
+    height: 100%;
+    width: 100%;
+}
+
+.contents_wrap .blog_items img {
+    
+}
+
+.
+
+/* MOVIE */
+/* CINEMA */
 /* ABOUT */
 
     /* About_headline */
@@ -216,11 +244,24 @@ footer section a img {
     box-sizing: border-box;
 }
 
-.contact_info p {
+.contact_info {
     position: relative;
     width: 100%;
+    height: 100%;
     display: flex;
-    justify-content: right;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 100px;
+    box-sizing: border-box;
+}
+
+.contact_info p {
+    display: flex;
+
+}
+
+.contact_info span {
+    color: #034A88;
 }
 
 .contact-box{
@@ -235,7 +276,7 @@ footer section a img {
 }
 
 .left{
-	background: url("/images/contact_img.png") no-repeat center;
+	background: url("/images/contact_img.jpg") no-repeat center;
 	background-size: cover;
 	height: 100%;
 }
